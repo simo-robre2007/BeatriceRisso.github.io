@@ -1,0 +1,123 @@
+/* Sfondo generale del notebook */
+body {
+    background-color: rgb(250, 166, 19); /* yell */
+    color: rgb(21, 96, 100); /* blue */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principale */
+.container {
+    background-color: rgb(166, 60, 6); /* brown */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 960px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Barra superiore */
+#header-container {
+    background-color: rgb(244, 71, 8); /* red */
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Celle del notebook */
+div.cell {
+    background-color: rgb(250, 166, 19); /* yell */
+    border: 2px solid rgb(104, 142, 38); /* green */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input delle celle (codice) */
+div.input_area {
+    background-color: rgb(21, 96, 100); /* blue */
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+/* Output delle celle */
+div.output_area {
+    background-color: rgb(104, 142, 38); /* green */
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Courier New', monospace;
+}
+
+/* Titoli */
+h1 {
+    color: rgb(244, 71, 8); /* red */
+    font-size: 2.5em;
+    border-bottom: 2px solid rgb(166, 60, 6); /* brown */
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: rgb(166, 60, 6); /* brown */
+    font-size: 2em;
+    border-bottom: 1px solid rgb(244, 71, 8); /* red */
+}
+
+h3, h4, h5, h6 {
+    color: rgb(104, 142, 38); /* green */
+}
+
+/* Liste */
+ul, ol {
+    padding-left: 20px;
+    color: rgb(21, 96, 100); /* blue */
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Link */
+a {
+    color: rgb(244, 71, 8); /* red */
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(166, 60, 6); /* brown */
+    text-decoration: underline;
+}
+
+/* Blocchi di codice */
+pre {
+    background-color: rgb(21, 96, 100); /* blue */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    background-color: rgb(250, 166, 19); /* yell */
+    color: rgb(166, 60, 6); /* brown */
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Citazioni */
+blockquote {
+    background-color: rgb(244, 71, 8); /* red */
+    color: white;
+    border-left: 5px solid rgb(166, 60, 6); /* brown */
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
